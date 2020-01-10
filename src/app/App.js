@@ -84,7 +84,7 @@ Content Cell  | Content Cell
           <button className="copy-btn" onClick={this.copy}>复制</button>
           <textarea readOnly id="content" className="content" value={confluenceValue} />
         </div>
-        <div class="beian"><a target="_blank" href="http://beian.miit.gov.cn">冀ICP备19014774号</a></div>
+        <div className="beian"><a target="_blank" href="http://beian.miit.gov.cn" rel="noopener noreferrer">冀ICP备19014774号</a></div>
       </div>
     )
   }
